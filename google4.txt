@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
     <style>
@@ -15,18 +15,19 @@
       }
 
       li a {
+        color: white;
         display: block;
         padding: 10px;
         background: #463f3e;
-        color: white;
         text-decoration: none;
       }
+.a{
+float: right;
     </style>
   </head>
   <body>
-    <b><a href="https://www.iiit.ac.in">
-      <img
-        src="https://www.iiit.ac.in/img/iiit-new.png"
+<h1><center> Registration Page </center><h1>
+    <a href="https://www.iiit.ac.in"><img src="https://www.iiit.ac.in/img/iiit-new.png"
         width="160"
         height="80"
         align="left"
@@ -42,53 +43,49 @@
       <br />
       <form action="details.html" method="get">
       <div class="reg_form">
-        <b>First name:</b
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>First name:</b>
         <input type="text" required />
         <br />
         <br />
 
-        <b>E-mail:</b
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>E-mail:</b>
         <input type="email" required />
         <br />
         <br />
 
-        <b>Phone No:</b
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>Phone No:</b>
         <input type="number" required />
-        <br />
-        <br />
-        <b>Gender:</b
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="radio" name="g" value="m" required/>Male
-        <input type="radio" name="g" value="f" required/>Female
-        <input type="radio" name="g" value="o" required/>Other
-        <br />
-        <br />
+        <br/>
+        <br/>
+        <b>Gender:</b>
+        <input type="radio" name="gender" value="male" required/>Male
+        <input type="radio" name="gender" value="female" required/>Female
+        <input type="radio" name="gender" value="others" required/>Other
+        <br/>
+        <br/>
 
-        <b>Reason for RDIP:</b>&nbsp; 
+        <b>Reason for RDIP:</b> 
         <input type="checkbox" />HTML
         <input type="checkbox" />CSS
          <input type="checkbox" />JavaScript
         <br />
         <br />
 
-        <b>College</b
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>College</b>
         <input type="text" required/>
-
-        <br /><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+       
         <input
           type="checkbox"
           required
-        />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        />
         <b>I declare above details given by me are true.</b>
       </div>
-      <br>&nbsp;&nbsp;&nbsp;
-      <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <br>
+      <input type="submit">
+<div class="a">
       <input type="reset"></form>
+</div>
       
         </body>
 </html>
