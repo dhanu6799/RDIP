@@ -31,8 +31,9 @@
 
       td,
       th {
-        border: 2px solid black;
         text-align: center;
+        border: 2px solid black;
+        
         padding: 8px;
       }
       #profile {
