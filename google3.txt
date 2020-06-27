@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #463f3e;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        padding: 10px;
+        background: #463f3e;
+        color: white;
+        text-decoration: none;
+      }
+      td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.iiit.ac.in">
+      <img
+        src="https://www.iiit.ac.in/img/iiit-new.png"
+        width="160"
+        height="80"
+        align="left"
+    /></a>
+    <h2 align="right"><a href="https://serc.iiit.ac.in/rdip">RDIP</a></h2>
+    <br /><br /><br />
+    <div class="navbar">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="registration.html">Registration Form</a></li>
+      </ul>
+    </div>
+    <br />
+    <table>
+      <tr>
+        <td>First name &nbsp;&nbsp;&nbsp;:</td>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>
+          E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          :&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        <td>xyz@avc.com</td>
+      </tr>
+      <tr>
+        <td>Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Reason &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+        <td>HTML, CSS, JavaScript</td>
+      </tr>
+      <tr>
+        <td>College &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</td>
+        <td>Name of college</td>
+      </tr>
+    </table>
+  </body>
+</html>
